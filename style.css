@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	margin-top: 50px;
+	background-color: #ced2d9;
+	font-family: "Avant Garde", sans-serif;
+}
+
+@font-face {
+    font-family: AvantGarde;
+    src: url(AvantGarde.woff);
+}
