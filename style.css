@@ -17,6 +17,32 @@ h1 {
 	font-family: "Palatino";
 }
 
+.button {
+	transition: transform .2s ease;
+	margin: 0 auto;
+	color: gray;
+}
+
+.button:visited {
+	color: #000000;
+}
+
+.button:hover {
+	transform: scale(1.2);
+}
+
+.profile {
+	border-radius: 50%;
+	object-fit: cover;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.image {
+	height: auto;
+}
+
+
 .main_menu {
 	margin-top: 10px;
 	margin-bottom: 30px;
