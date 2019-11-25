@@ -1,8 +1,8 @@
 body {
 	margin-top: 50px;
 	margin-left: 50px;
-	background-color: #ced2d9;
-	
+	background-color: #324356;
+	color: #ffffff;
 	/*font-family: "Avant Garde", sans-serif;*/
 	font-family: "Optima", sans-serif;
 	text-align: left;
@@ -21,21 +21,19 @@ body {
 
 h1 {
 	margin-top: 100px;
-	
-	text-align: left;
 	font-size: 60px;
 	font-family: "Palatino";
+	/*color: #b4dfe5;*/
+	color: #e1ad01;
 }
 
-a {
-	color: white;
+h2 {
+	font-size: 26px;
+	background-color: #e1ad01;
+	padding: 5px;
+	display: inline;
 }
 
-svg {
-	fill: gray;
-	color: gray;
-	mask: gray;
-}
 
 .align_left {
 	text-align: left;
@@ -51,13 +49,19 @@ svg {
 .button:link {
 	color: #000000;
 }
+
 .button:visited {
 	color: #000000;
 	text-decoration-color: black; 
 }
 
 .button:hover {
-	transform: scale(1.2);
+	transform: scale(1.15);
+}
+
+.currents {
+	font-size: 18px;
+	margin-bottom: 50px;
 }
 
 .profile {
@@ -67,53 +71,32 @@ svg {
 	max-height: 300px;
 }
 
-.image {
-	height: auto;
-}
-
-.image_container {
-	position: relative;
-	text-align: center;
-}
-
-.image_text {
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0;
-	transition: opacity .25s
-}
-
-.image_container:hover .image_text {
-	opacity: 1.0;
-}
 
 .main_menu {
-	margin-top: 10px;
-	margin-bottom: 0px;
-	font-size: 20px;
+	color: #e1ad01;
+	margin-top: 20px;
+	font-size: 22px;
 	display: inline-block;
-}
-
-h2 {
-	/*text-align: center;*/
-	/*font-family: "Palatino";*/
-	font-size: 30px;
-}
-
-.text {
-	/*text-align: center;*/
-	font-size: 18px; 
-}
-
-.bold_text {
-	font-size: 18px;
 	font-weight: bold;
 }
 
-@font-face {
-    font-family: AvantGarde;
-    src: url(AvantGarde.woff);
+a {
+	color: white;
+	text-decoration: none;
 }
+
+.text {
+	font-size: 20px; 
+}
+
+.block {
+	margin-bottom: 40px;
+}
+
+.bold_text {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
