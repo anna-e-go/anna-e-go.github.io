@@ -1,0 +1,48 @@
+		<div class="main_menu">
+			<div class="button">
+				<a href="about_me.html">Who I am</a>
+			</div>
+
+			<p>About, interests, projects, resume, linked in, github</p>
+
+		</div>
+
+		<div class="main_menu">
+
+			<div class="button">
+				<div class="image_container">
+					<a href="about_me.html"><img src="question_mark.svg" height="100px"/>
+					<div class="image_text">About Me</div>
+				</div>
+			</div>
+			<div class="button">
+				<div class="image_container">
+					<a href="resume.html"><img src="resume.svg" height="100px"/>
+					<div class="image_text">Resume</div>
+				</div>
+			</div>
+
+
+
+.image {
+	height: auto;
+}
+
+.image_container {
+	position: relative;
+	text-align: center;
+}
+
+.image_text {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity .25s
+}
+
+.image_container:hover .image_text {
+	opacity: 1.0;
+}
